@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&family=DM+Serif+Display&family=Inter:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+  color: #f5f0f0;
+}
+html,
+body {
+  height: 100%;
+  weight: 100%;
+  background-color: #090909;
+}
+#main {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  background-color: #090909;
+}
+.nav {
+  height: 140px;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+.nav h1 {
+  font-size: 18px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+.nav h5 {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.nav > h1 > i {
+  font-size: 18px;
+  margin-right: 9px;
+  cursor: pointer;
+}
+.nav > i {
+  margin-left: 60px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav img {
+  height: 50px;
+  cursor: pointer;
+}
+.line {
+  background-color: #e71d29;
+  height: 1.5px;
+  width: 70px;
+  margin-right: 10px;
+}
